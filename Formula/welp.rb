@@ -1,28 +1,28 @@
 class Welp < Formula
   desc "Fixes the command you just typed wrong. A fast successor to thefuck"
   homepage "https://github.com/Oliv3rmoon/welp"
-  version "0.2.1"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Oliv3rmoon/welp/releases/download/v0.2.1/welp-v0.2.1-aarch64-apple-darwin.tar.gz"
-      sha256 "64123736efd54015fa644b414492b3a820f4ecdb1ea55e5bba454f10c1beceb2"
+      url "https://github.com/Oliv3rmoon/welp/releases/download/v0.3.0/welp-v0.3.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a556bc87f5d621dddcda6da7b58090b032b2a26a8acf7ca735e0927825a6f5fb"
     end
     on_intel do
-      url "https://github.com/Oliv3rmoon/welp/releases/download/v0.2.1/welp-v0.2.1-x86_64-apple-darwin.tar.gz"
-      sha256 "c854095740f1598c91a53bbe80327daa5a40ae76332216a246acfb52844abe2e"
+      url "https://github.com/Oliv3rmoon/welp/releases/download/v0.3.0/welp-v0.3.0-x86_64-apple-darwin.tar.gz"
+      sha256 "5977b58bb4776a7cf006aeda26945bf9137546e27458e00b7e47f2d1be9bb6a7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Oliv3rmoon/welp/releases/download/v0.2.1/welp-v0.2.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "cfa9da7c2b823a1c3e6a328f5b7f2259ba667962f3eccfe6c3f44b27de34e077"
+      url "https://github.com/Oliv3rmoon/welp/releases/download/v0.3.0/welp-v0.3.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0b55e9869306f57c87bb5ab802b72d8a90d215d2aaf6d0b6f7dff808ab7a5fdc"
     end
     on_intel do
-      url "https://github.com/Oliv3rmoon/welp/releases/download/v0.2.1/welp-v0.2.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "8c23c00a9b87d1f7dad81b0bd64357fe35c5b897768296ce39e3c17218793ef9"
+      url "https://github.com/Oliv3rmoon/welp/releases/download/v0.3.0/welp-v0.3.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "ecf77403acccb650cb2519feea85ef3a5d469701015fafbdfb56c5915028097e"
     end
   end
 
